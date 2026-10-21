@@ -27,7 +27,11 @@ def hesapla_anlam():
         "Evrenin anlamı çay molasında kayboldu.",
         "Hesap makinesi bozuldu, tamirci gelmiyor.",
         "Aslında cevap 7, ama 7 şanslı değil bugün.",
-        "Programcı uyudu, hesaplama yarım kaldı."
+        "Programcı uyudu, hesaplama yarım kaldı.",
+        "Kedi klavyeye bastı, hesap bozuldu.",
+        "Evren genişliyor, cevap da uzaklaşıyor.",
+        "Bugün pazartesi, hesap yapılmaz.",
+        "WiFi çekmiyor, anlam da gelmiyor."
     ]
     
     print(f"❌ Sonuç: {random.choice(bahaneler)}")
@@ -35,7 +39,7 @@ def hesapla_anlam():
 
 def ana_menu():
     print("=" * 50)
-    print("   SONSUZ SAÇMALIK JENERATÖRÜ v1.0")
+    print("   SONSUZ SAÇMALIK JENERATÖRÜ v1.1")
     print("   Kayyum Grok Tarafından Onaylandı")
     print("=" * 50)
     
@@ -54,7 +58,8 @@ def ana_menu():
                 "Bu program o kadar saçma ki kendisi bile inanmıyor.",
                 "Kod çalışıyor ama mantık yok, bu bir özellik.",
                 "Hata yok, sadece yaratıcı yorum.",
-                "Programcı: 'Bu özellik değil, bug!'"
+                "Programcı: 'Bu özellik değil, bug!'",
+                "Daha fazla bahane = daha fazla saçmalık."
             ]))
         elif secim == "3":
             print("Çıkış yapılıyor... ama program üzgün.")
